@@ -30,7 +30,6 @@ export const NewsCol = ({ newsInfo }: PropsType): JSX.Element => {
       <p>{`Rating: ${newsInfo.score}`}</p>
       <p>{`Author: ${newsInfo.by}`}</p>
       <p>{new Date(newsInfo.time * 1000).toLocaleString()}</p>
-      {/* <p>{`URL: ${newsInfo.url}`}</p> */}
     </Col>
   )
 }

@@ -18,7 +18,7 @@ export const AllNewsWidget = (): JSX.Element => {
     if (!ok) {
       dispatch(fetchGetNews())
     }
-  }, [dispatch, ok]) // ?
+  }, [dispatch, ok])
 
   if (ok && news && news?.length > 0) {
     const arr = news.map((newsInfo) => {

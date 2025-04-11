@@ -14,6 +14,7 @@ export const CommentsWidget = (): JSX.Element => {
     if (newsInfo?.kids && newsInfo.kids.length > 0) {
       dispatch(fetchGetComments(newsInfo.kids))
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const renderComments = (commentsArray: NewsItemType[]) => {
