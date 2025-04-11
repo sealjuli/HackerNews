@@ -1,5 +1,13 @@
 # React + TypeScript + Vite
 
+Architectural methodology - Feature-Sliced ​​Design (FSD)
+
+UI Framework - Ant Design
+
+CSS framework - Tailwind CSS
+
+## Project description
+
 ### Home page
 
 - Shows the latest 100 news items as a list sorted by date, with the most recent ones on top.
