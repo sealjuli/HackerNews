@@ -23,7 +23,7 @@ Each news item contains:
 
 ### News page
 
-Must contain:
+Contains:
 - link to the news item
 - news title
 - date
