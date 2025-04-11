@@ -14,7 +14,7 @@ export const LayoutHeader = (): JSX.Element => {
     <Header className="flex items-center justify-between !px-[100px] !bg-white">
       <div className="flex">
         <div className="bg-[url('/logo.png')] bg-contain w-[40px] h-[40px] mr-[30px]" />
-        <p className="text-2xl text-orange-400 content-end">HackersNews</p>
+        <p className="text-2xl text-orange-400 content-end">HackerNews</p>
       </div>
       {!oneNewsExists && <ReloadButton />}
       {oneNewsExists && <ReloadCommentsButton />}

@@ -1,5 +1,5 @@
 export const hackersNewsRoutes = {
-    root: 'hackersNews',
+    root: 'hackerNews',
 } as const;
 
 export type RoutesType = (typeof hackersNewsRoutes)[keyof typeof hackersNewsRoutes];
